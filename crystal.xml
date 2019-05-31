@@ -1,0 +1,4041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report path="D:\cyframe\jtdev\Source\Web Pages\Crystal\CYFR\ZZ\BalanceSheet.rpt">
+
+<ParameterFields>
+  <ParameterField 
+    ParameterFieldName="lblReportTitle"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblReportTitle}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblRunDate"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblRunDate}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblUser"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblUser}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblChart"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblChart}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblYear"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblYear}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblPeriod"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblPeriod}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblCostCtr"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblCostCtr}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblTo"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblTo}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblFormat"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblFormat}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblCurrency"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblCurrency}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblDeleteZeros"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblDeleteZeros}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblSkipPageByType"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblSkipPageByType}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblStatement"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblStatement}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblEndReport"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblEndReport}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblTotalAsset"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblTotalAsset}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblTotalLiability"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblTotalLiability}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblPriorYear"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblPriorYear}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tCompany"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?tCompany}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tDeleteZero"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?tDeleteZero}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tSkipPage"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?tSkipPage}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblCurrentYear"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblCurrentYear}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblIncreaseDecrease"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblIncreaseDecrease}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblAsOf"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblAsOf}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tLangId"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?tLangId}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tDetailedYN"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?tDetailedYN}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblSubTotal"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?lblSubTotal}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tDecimal"
+    ValueType="12"
+    Prompt=""
+    NumberOfBytes="510"
+    Name="{?tDecimal}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tUser"
+    ValueType="12"
+    Prompt="Enter tUser:"
+    NumberOfBytes="-2"
+    Name="{?tUser}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblToday"
+    ValueType="12"
+    Prompt="Enter lblToday:"
+    NumberOfBytes="-2"
+    Name="{?lblToday}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblYearPeriod"
+    ValueType="12"
+    Prompt="Enter lblYearPeriod:"
+    NumberOfBytes="-2"
+    Name="{?lblYearPeriod}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tYearPeriod"
+    ValueType="12"
+    Prompt="Enter tYearPeriod:"
+    NumberOfBytes="-2"
+    Name="{?tYearPeriod}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblFrom"
+    ValueType="12"
+    Prompt="Enter lblFrom:"
+    NumberOfBytes="-2"
+    Name="{?lblFrom}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblCostCenter"
+    ValueType="12"
+    Prompt="Enter lblCostCenter:"
+    NumberOfBytes="-2"
+    Name="{?lblCostCenter}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tCostCenterFrom"
+    ValueType="12"
+    Prompt="Enter tCostCenterFrom:"
+    NumberOfBytes="-2"
+    Name="{?tCostCenterFrom}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tCostCenterTo"
+    ValueType="12"
+    Prompt="Enter tCostCenterTo:"
+    NumberOfBytes="-2"
+    Name="{?tCostCenterTo}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblSkipByWC"
+    ValueType="12"
+    Prompt="Enter lblSkipByWC:"
+    NumberOfBytes="-2"
+    Name="{?lblSkipByWC}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tSkipByWC"
+    ValueType="12"
+    Prompt="Enter tSkipByWC:"
+    NumberOfBytes="-2"
+    Name="{?tSkipByWC}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblDecimal"
+    ValueType="12"
+    Prompt="Enter lblDecimal:"
+    NumberOfBytes="-2"
+    Name="{?lblDecimal}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tDecimalDesc"
+    ValueType="12"
+    Prompt="Enter tDecimalDesc:"
+    NumberOfBytes="-2"
+    Name="{?tDecimalDesc}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="lblDetailed"
+    ValueType="12"
+    Prompt="Enter lblDetailed:"
+    NumberOfBytes="-2"
+    Name="{?lblDetailed}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tDetailed"
+    ValueType="12"
+    Prompt="Enter tDetailed:"
+    NumberOfBytes="-2"
+    Name="{?tDetailed}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tChart"
+    ValueType="12"
+    Prompt="Enter tChart:"
+    NumberOfBytes="-2"
+    Name="{?tChart}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="tCurrency"
+    ValueType="12"
+    Prompt="Enter tCurrency:"
+    NumberOfBytes="-2"
+    Name="{?tCurrency}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="titlePageYN"
+    ValueType="12"
+    Prompt="Enter titlePageYN:"
+    NumberOfBytes="-2"
+    Name="{?titlePageYN}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="SuppressGroupYN"
+    ValueType="12"
+    Prompt="Enter SuppressGroupYN:"
+    NumberOfBytes="-2"
+    Name="{?SuppressGroupYN}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+  <ParameterField 
+    ParameterFieldName="pShortDateMaskCR"
+    ValueType="12"
+    Prompt="Enter pShortDateMaskCR:"
+    NumberOfBytes="-2"
+    Name="{?pShortDateMaskCR}"
+    EnableMultipleValues="False"
+    NumberOfCurrentValues="0"
+    sValue=""
+    DefaultValue=""
+  />
+</ParameterFields>
+
+<Fieldnames>
+  <fieldname name="COMPANY_ID" />
+  <fieldname name="CH_GROUP" />
+  <fieldname name="TYPE_ORDER" />
+  <fieldname name="TYPE_NAME" />
+  <fieldname name="CAT_ORDER" />
+  <fieldname name="CATEGORIE_CODE" />
+  <fieldname name="CATEGORIE_DESC" />
+  <fieldname name="LINE_ORDER" />
+  <fieldname name="LINE_DESC" />
+  <fieldname name="ENDING_DATE" />
+  <fieldname name="CM_REVENUE_TOTAL" />
+  <fieldname name="PM_REVENUE_TOTAL" />
+  <fieldname name="YTD_REVENUE_TOTAL" />
+  <fieldname name="PRIOR_YTD_REVENUE_TOTAL" />
+  <fieldname name="CURRENT_MONTH" />
+  <fieldname name="POURCENT_MONTH" />
+  <fieldname name="PRIOR_YEAR_MONTH" />
+  <fieldname name="POURCENT_PRIOR_YEAR_MONTH" />
+  <fieldname name="VARIANCE_MONTH" />
+  <fieldname name="YTD" />
+  <fieldname name="POURCENT_YTD" />
+  <fieldname name="PRIOR_YEAR_YTD" />
+  <fieldname name="POURCENT_PRIOR_YEAR_YTD" />
+  <fieldname name="VARIANCE_YTD" />
+  <fieldname name="PL_REPORT_NAME" />
+  <fieldname name="COST_CENTER_GROUP" />
+  <fieldname name="COST_CENTER_LINE" />
+  <fieldname name="COST_CENTER_LINE_DESCIPTION" />
+  <fieldname name="GL_ACCT" />
+  <fieldname name="GL_DESCRIPTION" />
+  <fieldname name="DISPLAY_YN" />
+  <fieldname name="LINE_TYPE" />
+  <fieldname name="QUARTER_TOTAL" />
+  <fieldname name="COST_CENTER_DEPT" />
+  <fieldname name="BUDGET_MONTH" />
+  <fieldname name="POURCENT_BUDGET_MONTH" />
+  <fieldname name="BUDGET_YTD" />
+  <fieldname name="POURCENT_BUDGET_YTD" />
+  <fieldname name="CM_REVENUE_BUDGET_TOTAL" />
+  <fieldname name="YTD_REVENUE_BUDGET_TOTAL" />
+  <fieldname name="PRIOR_YEAR_YTD_END" />
+  <fieldname name="POURCENT_PRIOR_YEAR_YTD_END" />
+  <fieldname name="PRIOR_YTD_END_REVENUE_TOTAL" />
+</Fieldnames>
+
+<Area type="Report Header">
+
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area3" />
+  <NewPageAfter Value="True" />
+  <NewPageBefore Value="True" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="12630" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="12480" />
+      <Name Value="Section3" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="0" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="True" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Box"
+                    bottom="12480"
+                    closeatpagebreak="True"
+                    cornerellipseheight="0"
+                    corderellipsewidth="0"
+                    extendtobottomofsection="False"
+                    hasdropshadow="True"
+                    left="120"
+                    linestyle="1"
+                    linethickness="20"
+                    name="Box1"
+                    right="11400"
+                    suppress="False"
+                    top="120"
+                     />
+        <Object Type="Ole"
+                    bottomcropping="0"
+                    bottomlinestyle="0"
+                    closeatpagebreak="True"
+                    height="1230"
+                    left="240"
+                    name="Picture5"
+                    suppress="False"
+                    top="240"
+                    width="1230"
+                    xscaling="1"
+                    yscaling="1"
+                     />
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="120"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tCompany1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tCompany}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5880"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblToday1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblToday}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5880"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tUser1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tUser}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5880"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tChart2"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tChart}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5880"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tYearPeriod1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tYearPeriod}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="8640"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tCostCenterTo1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tCostCenterTo}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="8640"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblTo1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblTo}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5880"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblFrom1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblFrom}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5840"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tCostCenterFrom1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tCostCenterFrom}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5886"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tCurrency1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tCurrency}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5886"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tSkipByWC1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tSkipByWC}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5886"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tDeleteZero1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tDeleteZero}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5886"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tSkipPage1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tSkipPage}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5886"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tDetailed1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tDetailed}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5886"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="tDecimalDesc1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tDecimalDesc}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblDecimal1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblDecimal}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblDetailed1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblDetailed}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field58"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblSkipPageByType}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblDeleteZeros1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblDeleteZeros}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblSkipByWC1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblSkipByWC}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblCurrency1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblCurrency}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblCostCenter1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblCostCenter}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring="AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="/"
+                    dateorder="1"
+                    dateprefixseparator=""
+                    datesecondseparator="/"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblYearPeriod1"
+                    negativetype="1"
+                    pmstring="PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblYearPeriod}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblChart1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblChart}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblUser1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblUser}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="2400"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblRunDate1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblRunDate}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="360"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="120"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="lblReportTitle1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblReportTitle}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Page Header">
+
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="True" />
+  <Name Value="Area1" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="1862" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="1680" />
+      <Name Value="Section1" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="1" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="8380"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field49"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblRunDate}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Text"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    height="240"
+                    horalignment="1"
+                    keeptogether="True"
+                    left="9960"
+                    linespacing="1"
+                    name="Text12"
+                    maxnumberoflines="0"
+                    suppress="False"
+                    text=":"
+                    top="1200"
+                    width="60"
+                     />
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="345"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="255"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field50"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?tCompany}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="345"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="255"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field51"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblStatement}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" am"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="2"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="2"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="228"
+                    hourminuteseparator=":"
+                    hourtype="1"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="10080"
+                    maxnumberoflines="0"
+                    minutesecondseparator=""
+                    minutetype="0"
+                    monthtype="2"
+                    name="Field1"
+                    negativetype="1"
+                    pmstring=" pm"
+                    secondtype="2"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="4" name="PrintDate">
+                            <special>        </special>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Text"
+                    bottomlinestyle="0"
+                    cangrow="True"
+                    height="270"
+                    horalignment="2"
+                    keeptogether="True"
+                    left="0"
+                    linespacing="1"
+                    name="Text1"
+                    maxnumberoflines="0"
+                    suppress="False"
+                    text="[] []"
+                    top="1410"
+                    width="11325"
+                     />
+        <Object Type="Text"
+                    bottomlinestyle="0"
+                    cangrow="True"
+                    height="255"
+                    horalignment="1"
+                    keeptogether="True"
+                    left="10143"
+                    linespacing="1"
+                    name="Text2"
+                    maxnumberoflines="0"
+                    suppress="False"
+                    text="Page : []"
+                    top="210"
+                    width="840"
+                     />
+        <Object Type="Line"
+                    bottom="1440"
+                    left="8340"
+                    linestyle="1"
+                    linethickness="20"
+                    name="Line2"
+                    top="1440"
+                    right="11325"
+                    suppress="False"
+                    extendtobottomofsection="False"
+                     />
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Header">
+
+  <DiscardOtherGroups Value="False" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="1" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area7" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="1010" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="522" />
+      <Name Value="Section6" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="2" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="165"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field3"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="1" name="{FinancialIncome_TTX.TYPE_NAME}">
+                            <databasefieldname valuetype="12">TYPE_NAME        </databasefieldname>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Line"
+                    bottom="255"
+                    left="165"
+                    linestyle="1"
+                    linethickness="40"
+                    name="Line6"
+                    top="255"
+                    right="3030"
+                    suppress="False"
+                    extendtobottomofsection="False"
+                     />
+        <Object Type="Line"
+                    bottom="250"
+                    left="5145"
+                    linestyle="1"
+                    linethickness="30"
+                    name="Line1"
+                    top="250"
+                    right="10005"
+                    suppress="False"
+                    extendtobottomofsection="False"
+                     />
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5280"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field2"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblCurrentYear}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Text"
+                    bottomlinestyle="0"
+                    cangrow="True"
+                    height="480"
+                    horalignment="3"
+                    keeptogether="True"
+                    left="7220"
+                    linespacing="1"
+                    name="Text5"
+                    maxnumberoflines="1"
+                    suppress="False"
+                    text="[] ([] [])"
+                    top="42"
+                    width="2770"
+                     />
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Header">
+
+  <DiscardOtherGroups Value="False" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="2" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area9" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="256" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="256" />
+      <Name Value="Section8" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="3" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="360"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field4"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="1" name="{FinancialIncome_TTX.CATEGORIE_DESC}">
+                            <databasefieldname valuetype="12">CATEGORIE_DESC        </databasefieldname>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Header">
+
+  <DiscardOtherGroups Value="False" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="3" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area11" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="226" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="226" />
+      <Name Value="Section10" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="4" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="495"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field5"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="1" name="{FinancialIncome_TTX.LINE_DESC}">
+                            <databasefieldname valuetype="12">LINE_DESC        </databasefieldname>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Header">
+
+  <DiscardOtherGroups Value="True" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="4" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="GroupHeaderArea1" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="220" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="0" />
+      <Name Value="GroupHeaderSection1" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="5" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="True" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Detail">
+
+  <CopiesToPrint Value="1" />
+  <DetailHeight Value="0" />
+  <DetailWidth Value="0" />
+  <HorizontalGap Value="0" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area5" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="309" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="264" />
+      <Name Value="Section5" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="6" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="True" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="228"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field11"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="1" name="{FinancialIncome_TTX.YTD}">
+                            <databasefieldname valuetype="7">YTD        </databasefieldname>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="228"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field13"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="1" name="{FinancialIncome_TTX.PRIOR_YEAR_YTD}">
+                            <databasefieldname valuetype="7">PRIOR_YEAR_YTD        </databasefieldname>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="955"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field62"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@GlAccount}">
+                            <formula valuetype="12">        <![CDATA[Trim({FinancialIncome_TTX.GL_ACCT}) & " - " & Trim({FinancialIncome_TTX.GL_DESCRIPTION})
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Footer">
+
+  <DiscardOtherGroups Value="True" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="4" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="GroupFooterArea1" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="255" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="255" />
+      <Name Value="GroupFooterSection4" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="7" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="930"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="GlAccount1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@GlAccount}">
+                            <formula valuetype="12">        <![CDATA[Trim({FinancialIncome_TTX.GL_ACCT}) & " - " & Trim({FinancialIncome_TTX.GL_DESCRIPTION})
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="228"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="YTDGLACCOUNT1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="7" name="{#YTD_GL_ACCOUNT}">
+                            <runningtotal valuetype="7">        <summarizedfield kind="1" name="{FinancialIncome_TTX.YTD}">        </summarizedfield>        </runningtotal>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="240"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7560"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="PRIORYEARYTDGLACCOUNT1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="7" name="{#PRIOR_YEAR_YTD_GL_ACCOUNT}">
+                            <runningtotal valuetype="7">        <summarizedfield kind="1" name="{FinancialIncome_TTX.PRIOR_YEAR_YTD}">        </summarizedfield>        </runningtotal>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Footer">
+
+  <DiscardOtherGroups Value="False" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="3" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area12" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="286" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="228" />
+      <Name Value="Section12" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="8" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="228"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field10"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="3" name="Sum ({FinancialIncome_TTX.YTD}, {FinancialIncome_TTX.LINE_ORDER})">
+                            <summary valuetype="7">        <summarizedfield kind="1" name="{FinancialIncome_TTX.YTD}">        </summarizedfield>        </summary>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol=""
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="228"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field14"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="3" name="Sum ({FinancialIncome_TTX.PRIOR_YEAR_YTD}, {FinancialIncome_TTX.LINE_ORDER})">
+                            <summary valuetype="7">        <summarizedfield kind="1" name="{FinancialIncome_TTX.PRIOR_YEAR_YTD}">        </summarizedfield>        </summary>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="495"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field6"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="1" name="{FinancialIncome_TTX.LINE_DESC}">
+                            <databasefieldname valuetype="12">LINE_DESC        </databasefieldname>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+    <Section>
+      <Height Value="286" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="286" />
+      <Name Value="GroupFooterSection1" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="9" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="360"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="LINEDESC1"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="1" name="{FinancialIncome_TTX.LINE_DESC}">
+                            <databasefieldname valuetype="12">LINE_DESC        </databasefieldname>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+    <Section>
+      <Height Value="475" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="360" />
+      <Name Value="Section14" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="10" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="615"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field88"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@LineDesc}">
+                            <formula valuetype="12">        <![CDATA[Trim({FinancialIncome_TTX.LINE_DESC})
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="240"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="SumofYTD1"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="3" name="Sum ({FinancialIncome_TTX.YTD}, {FinancialIncome_TTX.LINE_ORDER})">
+                            <summary valuetype="7">        <summarizedfield kind="1" name="{FinancialIncome_TTX.YTD}">        </summarizedfield>        </summary>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="240"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="SumofPRIORYEARYTD1"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="3" name="Sum ({FinancialIncome_TTX.PRIOR_YEAR_YTD}, {FinancialIncome_TTX.LINE_ORDER})">
+                            <summary valuetype="7">        <summarizedfield kind="1" name="{FinancialIncome_TTX.PRIOR_YEAR_YTD}">        </summarizedfield>        </summary>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+    <Section>
+      <Height Value="498" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="380" />
+      <Name Value="GroupFooterSection2" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="11" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="240"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field15"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@CurrentProfit}">
+                            <formula valuetype="7">        <![CDATA[if isnull({#TotalRevenueCurrent}) and isnull({#TotalExpenseCurrent}) then
+                        0
+                    else if isnull({#TotalRevenueCurrent}) then
+                           0 - {#TotalExpenseCurrent}
+                    else
+                          {#TotalRevenueCurrent} - {#TotalExpenseCurrent}
+                    
+                    
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="240"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field18"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@PriorProfit}">
+                            <formula valuetype="7">        <![CDATA[
+                    if isnull({#TotalRevenuePrior}) and isnull({#TotalExpensePrior}) then
+                       0
+                    else if isnull({#TotalRevenuePrior}) then
+                          0 - {#TotalExpensePrior}
+                    else
+                          {#TotalRevenuePrior} - {#TotalExpensePrior}
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Text"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    height="226"
+                    horalignment="3"
+                    keeptogether="True"
+                    left="501"
+                    linespacing="1"
+                    name="Text4"
+                    maxnumberoflines="0"
+                    suppress="False"
+                    text="Profit"
+                    top="140"
+                    width="3210"
+                     />
+
+      </ReportObjects>
+
+    </Section>
+    <Section>
+      <Height Value="448" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="310" />
+      <Name Value="GroupFooterSection3" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="12" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="240"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field9"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@PriorProfit}">
+                            <formula valuetype="7">        <![CDATA[
+                    if isnull({#TotalRevenuePrior}) and isnull({#TotalExpensePrior}) then
+                       0
+                    else if isnull({#TotalRevenuePrior}) then
+                          0 - {#TotalExpensePrior}
+                    else
+                          {#TotalRevenuePrior} - {#TotalExpensePrior}
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="240"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field8"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@CurrentProfit}">
+                            <formula valuetype="7">        <![CDATA[if isnull({#TotalRevenueCurrent}) and isnull({#TotalExpenseCurrent}) then
+                        0
+                    else if isnull({#TotalRevenueCurrent}) then
+                           0 - {#TotalExpenseCurrent}
+                    else
+                          {#TotalRevenueCurrent} - {#TotalExpenseCurrent}
+                    
+                    
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Text"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    height="226"
+                    horalignment="3"
+                    keeptogether="True"
+                    left="501"
+                    linespacing="1"
+                    name="Text3"
+                    maxnumberoflines="0"
+                    suppress="False"
+                    text="Profit"
+                    top="70"
+                    width="3210"
+                     />
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Footer">
+
+  <DiscardOtherGroups Value="False" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="2" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area10" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="398" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="346" />
+      <Name Value="Section9" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="13" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="238"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field12"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@YTD_TOTAL}">
+                            <formula valuetype="7">        <![CDATA[Sum ({FinancialIncome_TTX.YTD}, {FinancialIncome_TTX.CAT_ORDER}) +  {@currentprofittotal}
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="238"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field7"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@PRIOR_YTD_YEAR}">
+                            <formula valuetype="7">        <![CDATA[Sum ({FinancialIncome_TTX.PRIOR_YEAR_YTD}, {FinancialIncome_TTX.CAT_ORDER}) + {@PriorProfittotal}
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="391"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field65"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@Cat_SubTotal}">
+                            <formula valuetype="12">        <![CDATA[trim({FinancialIncome_TTX.CATEGORIE_DESC})
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Group Footer">
+
+  <DiscardOtherGroups Value="False" />
+  <EnableHierarchicalGroupSorting Value="False" />
+  <GroupCondition Value="14" />
+  <GroupIndent Value="0" />
+  <GroupNumber Value="1" />
+  <KeepGroupTogether Value="False" />
+  <NumberOfTopOrBottomNGroups Value="0" />
+  <SortDirection Value="0" />
+  <TopOrBottomNGroupSortOrder Value="0" />
+  <RepeatGroupHeader Value="False" />
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area8" />
+  <NewPageAfter Value="False" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="733" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="301" />
+      <Name Value="Section7" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="14" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="1671"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field64"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@Total_Type_Name}">
+                            <formula valuetype="12">        <![CDATA[if {FinancialIncome_TTX.TYPE_ORDER} = 'C' Then
+                         {?lblTotalAsset}
+                    else
+                        {?lblTotalLiability}
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="238"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field16"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@YTD_TOTAL_TYPEORDER}">
+                            <formula valuetype="7">        <![CDATA[//Sum ({FinancialIncome_TTX.YTD}, {FinancialIncome_TTX.TYPE_ORDER}) + {@currentprofittotal}
+                    {#TotalCurrentYear} + {@currentprofittotal}
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="238"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field17"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@PRIOR_YTD_TOTAL_TYPE_ORDER}">
+                            <formula valuetype="7">        <![CDATA[//Sum ({FinancialIncome_TTX.PRIOR_YEAR_YTD}, {FinancialIncome_TTX.TYPE_ORDER}) + {@PriorProfittotal}
+                    {#TotalPriorYear} + {@PriorProfittotal}
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Report Footer">
+
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="False" />
+  <Name Value="Area4" />
+  <NewPageAfter Value="True" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="False" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="1321" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="971" />
+      <Name Value="Section4" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="15" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="0"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="0"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="226"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="180"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field48"
+                    negativetype="1"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="6" name="{?lblEndReport}">
+                            <ParameterField valuetype="12">        </ParameterField>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="2"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="228"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="7557"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field54"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@PriorYTDTotal}">
+                            <formula valuetype="7">        <![CDATA[{#PriorYTDTypeA} - ({#PriorYTDTypeB} + {@PriorProfittotal})
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+        <Object Type="Database Field"
+                    ampmtype="1"
+                    amstring=" AM"
+                    booleanoutputtype="0"
+                    bottomlinestyle="2"
+                    cangrow="False"
+                    closeatpagebreak="True"
+                    currencysymbol="$"
+                    currencysymboltype="1"
+                    dateeratype="2"
+                    datefirstseparator="-"
+                    dateorder="0"
+                    dateprefixseparator=""
+                    datesecondseparator="-"
+                    datewindowsdefaulttype="1"
+                    daytype="1"
+                    decimalplaces="2"
+                    decimalsymbol="."
+                    displayreversesign="False"
+                    height="238"
+                    hourminuteseparator=":"
+                    hourtype="0"
+                    keeptogether="True"
+                    leadingdayposition="0"
+                    leadingdayseparator=""
+                    leadingdaytype="2"
+                    left="5187"
+                    maxnumberoflines="0"
+                    minutesecondseparator=":"
+                    minutetype="0"
+                    monthtype="1"
+                    name="Field53"
+                    negativetype="3"
+                    pmstring=" PM"
+                    secondtype="0"
+                    roundingtype="9"
+                     >
+                            <fielddefinition kind="2" name="{@YTDTotal}">
+                            <formula valuetype="7">        <![CDATA[{#YTDTypeA} - ({#YTDTypeB} + {@currentprofittotal})
+                    ]]>        </formula>
+                    
+                            </fielddefinition>
+                            </Object>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Area type="Page Footer">
+
+  <HideForDrillDown Value="False" />
+  <KeepTogether Value="True" />
+  <Name Value="Area2" />
+  <NewPageAfter Value="True" />
+  <NewPageBefore Value="False" />
+  <PrintAtBottomOfPage Value="True" />
+  <ResetPageNumberAfter Value="False" />
+  <Suppress Value="False" />
+
+  <Sections>
+    <Section>
+      <Height Value="315" />
+      <KeepTogether Value="True" />
+      <MinumumHeight Value="0" />
+      <Name Value="Section2" />
+      <NewPageAfter Value="False" />
+      <NewPageBefore Value="False" />
+      <Number Value="16" />
+      <PrintAtBottomOfPage Value="False" />
+      <ResetPageNumberAfter Value="False" />
+      <Suppress Value="False" />
+      <SuppressIfBlank Value="False" />
+      <UnderlaySection Value="False" />
+      <Width Value="11520" />
+
+      <ReportObjects>
+
+      </ReportObjects>
+
+    </Section>
+  </Sections>
+</Area>
+
+<Formulas>
+  <formula name="{@Total_Type_Name}" language="">
+<![CDATA[if {FinancialIncome_TTX.TYPE_ORDER} = 'C' Then
+     {?lblTotalAsset}
+else
+    {?lblTotalLiability}
+]]>
+</formula>
+  <formula name="{@YTDTotal}" language="">
+<![CDATA[{#YTDTypeA} - ({#YTDTypeB} + {@currentprofittotal})
+]]>
+</formula>
+  <formula name="{@PriorYTDTotal}" language="">
+<![CDATA[{#PriorYTDTypeA} - ({#PriorYTDTypeB} + {@PriorProfittotal})
+]]>
+</formula>
+  <formula name="{@YTDVarianceTotal}" language="">
+<![CDATA[{@YTDTotal} - {@PriorYTDTotal}
+]]>
+</formula>
+  <formula name="{@CurrentProfit}" language="">
+<![CDATA[if isnull({#TotalRevenueCurrent}) and isnull({#TotalExpenseCurrent}) then
+    0
+else if isnull({#TotalRevenueCurrent}) then
+       0 - {#TotalExpenseCurrent}
+else
+      {#TotalRevenueCurrent} - {#TotalExpenseCurrent}
+
+
+]]>
+</formula>
+  <formula name="{@PriorProfit}" language="">
+<![CDATA[
+if isnull({#TotalRevenuePrior}) and isnull({#TotalExpensePrior}) then
+   0
+else if isnull({#TotalRevenuePrior}) then
+      0 - {#TotalExpensePrior}
+else
+      {#TotalRevenuePrior} - {#TotalExpensePrior}
+]]>
+</formula>
+  <formula name="{@VarianceProfit}" language="">
+<![CDATA[{@CurrentProfit} - {@PriorProfit}
+]]>
+</formula>
+  <formula name="{@YTD_TOTAL}" language="">
+<![CDATA[Sum ({FinancialIncome_TTX.YTD}, {FinancialIncome_TTX.CAT_ORDER}) +  {@currentprofittotal}
+]]>
+</formula>
+  <formula name="{@currentprofittotal}" language="">
+<![CDATA[if onlastrecord then
+   {@CurrentProfit}
+else
+  0
+]]>
+</formula>
+  <formula name="{@PriorProfittotal}" language="">
+<![CDATA[if onlastrecord then
+  {@PriorProfit}
+else
+  0
+]]>
+</formula>
+  <formula name="{@PRIOR_YTD_YEAR}" language="">
+<![CDATA[Sum ({FinancialIncome_TTX.PRIOR_YEAR_YTD}, {FinancialIncome_TTX.CAT_ORDER}) + {@PriorProfittotal}
+]]>
+</formula>
+  <formula name="{@VarianceTotal}" language="">
+<![CDATA[{@YTD_TOTAL} - {@PRIOR_YTD_YEAR}
+]]>
+</formula>
+  <formula name="{@YTD_TOTAL_TYPEORDER}" language="">
+<![CDATA[//Sum ({FinancialIncome_TTX.YTD}, {FinancialIncome_TTX.TYPE_ORDER}) + {@currentprofittotal}
+{#TotalCurrentYear} + {@currentprofittotal}
+]]>
+</formula>
+  <formula name="{@PRIOR_YTD_TOTAL_TYPE_ORDER}" language="">
+<![CDATA[//Sum ({FinancialIncome_TTX.PRIOR_YEAR_YTD}, {FinancialIncome_TTX.TYPE_ORDER}) + {@PriorProfittotal}
+{#TotalPriorYear} + {@PriorProfittotal}
+]]>
+</formula>
+  <formula name="{@VARIANCE_TOTAL_TYPE_ORDER}" language="">
+<![CDATA[{@YTD_TOTAL_TYPEORDER} - {@PRIOR_YTD_TOTAL_TYPE_ORDER}
+]]>
+</formula>
+  <formula name="{@GlAccount}" language="">
+<![CDATA[Trim({FinancialIncome_TTX.GL_ACCT}) & " - " & Trim({FinancialIncome_TTX.GL_DESCRIPTION})
+]]>
+</formula>
+  <formula name="{@LineDesc}" language="">
+<![CDATA[Trim({FinancialIncome_TTX.LINE_DESC})
+]]>
+</formula>
+  <formula name="{@Cat_SubTotal}" language="">
+<![CDATA[trim({FinancialIncome_TTX.CATEGORIE_DESC})
+]]>
+</formula>
+  <formula name="{@LabelPriorYear}" language="">
+<![CDATA[{?lblPriorYear} + " (" + {?lblAsOf} + Cstr({@PriorYearEndingDate}) + ")"]]>
+</formula>
+  <formula name="{@PriorYearEndingDate}" language="">
+<![CDATA[DateAdd ("yyyy", -1 , {FinancialIncome_TTX.ENDING_DATE})]]>
+</formula>
+</Formulas>
+</Report>

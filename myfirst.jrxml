@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="myfirst" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="47c5c163-17f9-48e0-9e0b-ba15ad668cfa">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="479"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="521"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="mytest"/>
+	<queryString>
+		<![CDATA[SELECT *
+FROM warehouse]]>
+	</queryString>
+	<field name="warehouse_class_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_class_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="stores_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="stores_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="wa_address1" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="wa_address1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="wa_address2" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="wa_address2"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="wa_address3" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="wa_address3"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="wa_address4" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="wa_address4"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_city" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_city"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_state_province" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_state_province"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_postal_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_postal_code"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_country" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_country"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_owner_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_owner_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_phone" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_phone"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<field name="warehouse_fax" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="warehouse_fax"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="warehouse"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="280" height="40" uuid="e375fcd2-838a-4ad6-99c2-d739d0573195"/>
+				<textElement>
+					<font fontName="Comic Sans MS" size="24"/>
+				</textElement>
+				<text><![CDATA[My Hello World Report]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="9" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="6" y="0" width="100" height="20" uuid="88a50c4d-ef81-4615-955e-29d77c0197a5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4d206639-0d14-441d-8775-27f862bc7a1f"/>
+				</reportElement>
+				<text><![CDATA[warehouse_id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="0" width="100" height="20" uuid="7b6557d7-4f30-482d-b01f-3102f7755fb9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3b6b18bf-7150-4270-8d62-69c0c8e8c5e8"/>
+				</reportElement>
+				<text><![CDATA[warehouse_name]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement x="6" y="0" width="100" height="20" uuid="7f39a2ce-3e10-43bf-ac4d-ed8db9f8885b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4d206639-0d14-441d-8775-27f862bc7a1f"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{warehouse_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="156" height="20" uuid="b14cbeff-8b3a-47aa-aa4d-7f12699ba0e1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3b6b18bf-7150-4270-8d62-69c0c8e8c5e8"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{warehouse_name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
