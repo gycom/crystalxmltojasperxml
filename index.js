@@ -194,8 +194,8 @@ function ReportObject(o)
     //console.log(o.fielddefinition)
     var element = `<!-- ${o.$.Type} ${o.$.name}-->
     <reportElement 
-    y="${twip2pixel(+o.$.left||0)}" 
-    x="${twip2pixel(+o.$.top||0)}"  
+    x="${twip2pixel(+o.$.left||0)}" 
+    y="${twip2pixel(+o.$.top||0)}"  
     width="${twip2pixel(+o.$.width||3000)}" 
     height="${twip2pixel(+o.$.height||100)}" 
     uuid="${guid()}">
